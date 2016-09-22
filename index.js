@@ -2,7 +2,7 @@
 var Alexa = require('alexa-sdk');
 
 var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
-var SKILL_NAME = 'R N G Master';
+var SKILL_NAME = 'Dice and Coin';
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
