@@ -26,7 +26,7 @@ var handlers = {
     },
     'GetDiceIntent': function(){
         var diceType = this.event.request.intent.slots.Dice.value;
-        console.log(diceType);
+        //console.log(diceType);
         if(diceType == null) {
             this.emit("AMAZON.HelpIntent");
             return;
