@@ -41,7 +41,7 @@ var handlers = {
         this.emit(":tellWithCard", speechOutput, SKILL_NAME, number);
     },
     'AMAZON.HelpIntent': function () {
-        var speechOutput = "You can say Flip a Coin, or, you can say Roll a d six. How can I help you?";
+        var speechOutput = "You can say Flip a Coin, or, you can say something like Roll a d six. How can I help you?";
         var reprompt = "What can I help you with?";
         this.emit(':ask', speechOutput, reprompt);
     },
