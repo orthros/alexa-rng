@@ -1,0 +1,25 @@
+{
+  "name": "alexa-rng",
+  "version": "1.0.0",
+  "description": "Node application to use Alexa to produce common rng-based results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orthros/alexa-rng.git"
+  },
+  "keywords": [
+    "Alexa",
+    "RNG",
+    "Coin",
+    "Dice"
+  ],
+  "author": "orthros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orthros/alexa-rng/issues"
+  },
+  "homepage": "https://github.com/orthros/alexa-rng#readme"
+}
